@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Haxball</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ui">
+    <div class="scoreboard">
+      <span id="scoreA">0</span>
+      <span class="dash">—</span>
+      <span id="scoreB">0</span>
+    </div>
+    <div class="status">
+      <span id="status">Pronto</span>
+    </div>
+    <div class="controls">
+      <div>
+        <strong>Azul (WASD):</strong> W/A/S/D para mover, Shift para sprint
+      </div>
+      <div>
+        <strong>Vermelho (Setas):</strong> ↑/←/↓/→ para mover, RCtrl para sprint
+      </div>
+      <button id="resetBtn">Reiniciar</button>
+    </div>
+  </div>
+
+  <canvas id="game" width="960" height="540"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
