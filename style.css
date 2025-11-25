@@ -2,13 +2,11 @@
   color-scheme: light dark;
   --bg:#0c0f16;
   --field:#0e3b1b;
-  --line:#f5f5f7;
+  --line:#e6f2e6;
   --blue:#3b82f6;
   --red:#ef4444;
   --ball:#f1f5f9;
-  --ui:#151926;
   --muted:#a1a1aa;
-  --accent:#ff3366;
 }
 
 *{box-sizing:border-box}
